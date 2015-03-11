@@ -2,9 +2,9 @@ package kite
 
 import (
 	"os"
-	"os/signal"
+	//	"os/signal"
 	"strings"
-	"syscall"
+	//"syscall"
 
 	"github.com/koding/logging"
 )
