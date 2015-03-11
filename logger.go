@@ -102,7 +102,7 @@ func newLogger(name string) (Logger, func(Level)) {
 func (k *Kite) SetupSignalHandler() {
 	c := make(chan os.Signal, 1)
 
-	signal.Notify(c, syscall.SIGUSR2)
+	//signal.Notify(c, syscall.SIGUSR2)
 	go func() {
 		for s := range c {
 			k.Log.Info("Got signal: %s", s)
