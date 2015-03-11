@@ -1,9 +1,10 @@
 package kite
 
 import (
-	"github.com/koding/logging"
 	"os"
 	"strings"
+
+	"github.com/koding/logging"
 )
 
 type Level int
