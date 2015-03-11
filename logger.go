@@ -1,12 +1,9 @@
 package kite
 
 import (
-	"os"
-	//	"os/signal"
-	"strings"
-	//"syscall"
-
 	"github.com/koding/logging"
+	"os"
+	"strings"
 )
 
 type Level int
